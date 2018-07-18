@@ -2,10 +2,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>PHP</title>
+		<title>Home</title>
 	</head>
 
 	<body>
+
+		<ul>
+			<li><a href="session.php">Sessions</a></li>
+			<li><a href="contact.php">Contact</a></li>
+		</ul><br><br>
+
 		<form method="GET">
 			<input type="text" name="person">
 			<button>Submit</button>
